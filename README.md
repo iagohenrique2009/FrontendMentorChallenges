@@ -10,6 +10,8 @@
 
 [Stats-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/stats-card-main/)
 
+[Profile-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/profile-card-main/)
+
 [Four-Column-card](https://iagohenrique2009.github.io/FrontendMentorChallenges/four-column-card-main/)
 
 [Social-Proof](https://iagohenrique2009.github.io/FrontendMentorChallenges/Social-proof-section-main/)
