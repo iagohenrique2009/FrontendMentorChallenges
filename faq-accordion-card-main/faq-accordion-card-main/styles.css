@@ -1,0 +1,110 @@
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    text-align: center; 
+    }
+body{
+    background-image:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+/*principal*/
+main{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    min-height:98vh;
+}
+.container{
+    position: relative;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:flex-start;
+    width:50%;
+    background-color:#fff;
+    gap:100px;
+    padding:5%;
+    overflow:hidden;
+    border-radius:25px;
+    background: #FFf url(images/bg-pattern-desktop.svg) 67% no-repeat;
+    background-position-x: -570px;
+    background-position-y: -240px;
+
+}
+
+/*principal*/
+/*img and text*/
+.box{
+position: fixed;
+z-index:1;
+top:44%;
+left:14%;
+
+}
+.img1{
+margin-left:-160px;
+}
+.textr{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    width: 100%;
+}
+h1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight:700;
+}
+/*accordion*/
+.accordion{
+    text-align:left;
+    background-color:#fff;
+    border:none;
+    outline:none;
+    border-bottom:1px solid hsl(240, 5%, 91%);
+    cursor:pointer;
+    transition: 0.3s;
+    font-family: 'Kumbh Sans', sans-serif; 
+    font-weight:400;
+    color:hsl(237, 12%, 33%);
+    font-size:15px;
+    padding:20px;
+    padding-left:0;
+
+}
+.accordion:hover{
+    color:hsl(14, 88%, 65%);
+}
+.accordion:after{
+    content: url(images/icon-arrow-down.svg);
+    width: auto;
+    float: right;
+    margin: 5px;
+}
+.panel{
+    font-family:"Kumbh Sans", sans-serif;
+    overflow:hidden;
+    display:none;
+    background-color:#fff;
+    color:hsl(240, 6%, 50%);
+    font-size:13px;
+    text-align: left;
+    padding: 0%;
+    
+}
+/*accordion*/
+/*active*/
+.active:after{
+    transform: scaleY(-1);
+    content: url(images/icon-arrow-down.svg);
+    width:auto;
+    float:right;
+    margin:5px;
+    color:hsl(237, 12%, 33%);
+}
+.active, .accordion:hover {
+    font-weight: 700;
+}
