@@ -1,0 +1,128 @@
+/*background*/
+.back{
+background: url("images/pattern-background-desktop.svg") no-repeat top center;
+background-size: contain;
+background-color: #e0e8ff;
+}
+/*background*/
+/*footer*/
+.attribution {
+  font-size: 11px;
+   text-align: center;
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
+ /*footer*/
+ /*card*/
+.card{
+display: flex;
+align-items: center;
+width: 30%;
+height: 30%;
+text-align: center;
+margin-left:35%;
+margin-top: 3%;
+color: hsl(223, 47%, 23%);
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+.card img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ /*card*/
+ /*card middle*/
+.ord{
+   font-family: "Red Hat Display", sans-serif;
+   font-size: 29px;
+   font-weight: 900;
+   padding-top:15px;
+   color: hsl(223, 47%, 23%)
+ }
+.textp{
+   padding:10px;
+   color: hsl(224, 23%, 55%);
+ }
+.disp{
+   display: flex;
+   flex-direction: row;
+   gap:40px;
+   background-color:hsl(225, 100%, 98%);
+   width: 90%;
+   border-radius: 25px;
+ }
+.icon{
+  height: 100%;
+}
+.txt2{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.txt1{
+  position: relative;
+  right:20px;
+  top:0px;
+  color: hsl(224, 23%, 55%);
+}
+
+.btnp{
+  position: relative;
+  top: 12px;
+  left:40px;
+  color:hsl(224, 23%, 55%);
+  font-family: "Red Hat Display", "Sans-serif";
+  font-weight: 600;
+}
+.btnp:hover{
+  color:hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+/*card middle*/
+.buttonn{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  width: 100%;
+  row-gap: 10px;
+  margin:15px;
+  
+}
+.btn1{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 11px 20px 10px 20px;
+  font-family: "Red Hat Display", "Sans-serif";
+  color: white;
+  transition: 0.3s;
+  border-style: none;
+}
+.btn1:hover{
+  background-color: hsl(245, 72%, 66%);
+  text-decoration: none;
+}
+.btn2 {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  background: #fff;
+  padding: 11px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  border-style: none;
+  font-family: "Red Hat Display", "Sans-serif";
+  font-weight: 900;
+}
+
+.btn2:hover {
+  color: hsl(223, 47%, 23%);
+}
+/*card down*/
