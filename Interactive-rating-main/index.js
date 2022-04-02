@@ -1,6 +1,7 @@
-var submit = document.querySelector(".cardfront");
-var appear = document.querySelector(".cardback");
-var numrating = document.querySelector(".cardback-rating");
+let submit = document.querySelector(".cardfront");
+let appear = document.querySelector(".cardback");
+let numrating = document.querySelector(".cardback-rating");
+let btns = document.querySelectorAll(".button")
 
 
 document.querySelector(".submit").addEventListener("click", function(){
@@ -10,19 +11,10 @@ document.querySelector(".submit").addEventListener("click", function(){
 
 });
 
-document.querySelector(".btn1").addEventListener("click", function(){
-    numrating.innerHTML ="You selected 1 out of 5";
-});
-document.querySelector(".btn2").addEventListener("click", function(){
-    numrating.innerHTML ="You selected 2 out of 5";
-});
-document.querySelector(".btn3").addEventListener("click", function(){
-    numrating.innerHTML= "You selected 3 out of 5";
-});
-document.querySelector(".btn4").addEventListener("click", function(){
-    numrating.innerHTML ="You selected 4 out of 5";
-});
-document.querySelector(".btn5").addEventListener("click", function(){
-    numrating.innerHTML ="You selected 5 out of 5";
-});
+for (let i = 0; i<btns.length; i++){
+    btns[i].addEventListener("click", function(){
+        num = this.innerHTML
+        numrating.innerHTML= "You selected "+num+" out of 5";
+    })
+}
 
