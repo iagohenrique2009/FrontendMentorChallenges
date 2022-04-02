@@ -4,7 +4,7 @@
 
 [QR-Code](https://iagohenrique2009.github.io/FrontendMentorChallenges/QRcode-iagohenrique2009-qrcode-patch2/)
 
-[NFT-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/nft-card-main/)]
+[NFT-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/nft-card-main/)
 
 [Order Summary](https://iagohenrique2009.github.io/FrontendMentorChallenges/order-sum-main/)
 
