@@ -1,4 +1,4 @@
-# My Challenges from the frontend-Mentor 🤠  '#85F4FF'
+# My Challenges from the frontend-Mentor 🤠  
 
 ###### This is my page which i made using github-pages to post my resolution of the challenges.
 
@@ -6,7 +6,7 @@
 
 [NFT-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/nft-card-main/)
 
-[Order Summary](https://iagohenrique2009.github.io/FrontendMentorChallenges/order-sum-main/)
+[Order Summary](https://iagohenrique2009.github.io/FrontendMentorChallenges/order-sum-main/) '#85F4FF'
 
 [Stats-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/stats-card-main/)
 
