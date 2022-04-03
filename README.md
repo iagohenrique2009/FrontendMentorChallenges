@@ -6,7 +6,7 @@
 
 [NFT-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/nft-card-main/)
 
-[Order Summary](https://iagohenrique2009.github.io/FrontendMentorChallenges/order-sum-main/) '#85F4FF'
+[Order Summary](https://iagohenrique2009.github.io/FrontendMentorChallenges/order-sum-main/)
 
 [Stats-Card](https://iagohenrique2009.github.io/FrontendMentorChallenges/stats-card-main/)
 
