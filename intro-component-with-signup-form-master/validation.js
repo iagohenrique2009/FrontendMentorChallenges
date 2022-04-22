@@ -3,7 +3,7 @@ function valid(){
 //email var//
  let email = document.getElementById("email").value;
  let emailimg = document.getElementById("email");
- let emailerr = document.querySelector(".emailem");
+ let emailerr = document.getElementById("emailem");
 //email var//
 
 //email validation//
@@ -22,7 +22,7 @@ else{
 
 //name var//
 let name = document.getElementById("name").value;
-let namemsg = document.querySelector(".namemsg");
+let namemsg = document.getElementById("namemsg");
 let nameimg = document.getElementById("name");
 //name var//
 
@@ -41,7 +41,7 @@ else{
 //lname var//
 
 let lname =document.getElementById("lname").value;
-let lnamemsg = document.querySelector(".lnamemsg");
+let lnamemsg = document.getElementById("lnamemsg");
 let lnameimg = document.getElementById("lname");
 //lname var//
 
@@ -59,7 +59,7 @@ else{
 //password var//
 
 let password = document.getElementById("password").value;
-let passwordmsg = document.querySelector(".pswmsg");
+let passwordmsg = document.getElementById("pswmsg");
 let passwordimg = document.getElementById("password");
 
 if (password !== ""){

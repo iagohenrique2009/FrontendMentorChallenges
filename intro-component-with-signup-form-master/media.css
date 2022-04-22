@@ -1,0 +1,40 @@
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftbox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 30rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftbox p{
+        width:20rem
+    }
+    .leftbox h1{
+        font-size: 2rem;
+        width:20rem;
+        line-height: 2.5rem;
+    }
+    .rightbox{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .rightbox .try{
+        padding: 1.5rem 6rem ;
+        width:15rem;
+    }
+    .forms{
+        width:23rem;
+        display: flex;
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
