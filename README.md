@@ -27,3 +27,5 @@
 [Base Apparel Coming Soon](https://iagohenrique2009.github.io/FrontendMentorChallenges/base-apparel-coming-soon-master/)
 
 [Intro Signup](https://iagohenrique2009.github.io/FrontendMentorChallenges/intro-component-with-signup-form-master/?#)
+
+[Grid Price](https://iagohenrique2009.github.io/FrontendMentorChallenges/single-price-grid-component-master/)
