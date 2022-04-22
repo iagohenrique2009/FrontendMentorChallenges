@@ -48,13 +48,16 @@ transition: 0.3s;
    color: hsl(224, 23%, 55%);
  }
 .disp{
-   display: flex;
-   flex-direction: row;
-   gap:40px;
-   background-color:hsl(225, 100%, 98%);
-   width: 90%;
-   border-radius: 25px;
- }
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  background-color: hsl(225, 100%, 98%);
+  width: 90%;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+}
+ 
 .icon{
   height: 100%;
 }
@@ -65,14 +68,11 @@ transition: 0.3s;
 .txt1{
   position: relative;
   right:20px;
-  top:0px;
+  top:5px;
   color: hsl(224, 23%, 55%);
 }
 
 .btnp{
-  position: relative;
-  top: 12px;
-  left:40px;
   color:hsl(224, 23%, 55%);
   font-family: "Red Hat Display", "Sans-serif";
   font-weight: 600;

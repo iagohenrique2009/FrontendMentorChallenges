@@ -1,0 +1,19 @@
+@media (max-width:500px){
+    .card{
+        width: auto;
+        margin-left:0;
+        margin-top: 2rem;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .disp{
+        justify-content: space-between;
+    }
+    .txt1{
+        right: 75px;
+        top: 5px;
+    
+    }
+}
