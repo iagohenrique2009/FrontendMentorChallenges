@@ -1,4 +1,7 @@
 @media (max-width:500px){
+    body{
+        padding:3rem;
+    }
     main{
         display:flex;
         flex-direction: column;
@@ -19,5 +22,15 @@
         flex-direction: column;
         width: 90%;
         align-items: center;
+        
+    }
+    .leftbox{
+        width:92%;
+        border-bottom-left-radius: 0;
+    }
+    .rightbox{
+        width:106.5%;
+        border-bottom-left-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
     }
 }
