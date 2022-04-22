@@ -1,0 +1,23 @@
+@media (max-width:500px){
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .topbox{
+        display: flex;
+        flex-direction: column;
+        width:70%;
+        line-height: 2rem;
+    }
+    .bottombox{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+}
