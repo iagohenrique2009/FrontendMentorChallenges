@@ -1,0 +1,44 @@
+@media (max-width: 500px){
+
+    .colmn1{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30%;
+        align-items: center;
+    }
+    .p1{
+        margin-left: 0;
+    }
+    .p2{
+        margin-left: 0;
+    }
+    .cl1row1{
+        text-align: center;
+    }
+    .cl1row1 p{
+        width: 22.5rem;
+        margin: 1rem;
+    }
+    .colmn2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .pbox{
+        display: flex;
+        flex-direction: column;
+        gap:1px;
+        height: auto;
+        width: 20rem;
+        padding-top:1rem;
+    }
+    .cl2row{
+        
+        width: 16rem;
+        padding: 2rem ;
+        border:0;
+    }
+}
