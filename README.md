@@ -31,3 +31,5 @@
 [Grid Price](https://iagohenrique2009.github.io/FrontendMentorChallenges/single-price-grid-component-master/)
 
 [Ping Soon Page](https://iagohenrique2009.github.io/FrontendMentorChallenges/ping-coming-soon-page-master/)
+
+[Huddle Landing Page](https://iagohenrique2009.github.io/FrontendMentorChallenges/huddle-landing-page-with-single-introductory-section-master/)
