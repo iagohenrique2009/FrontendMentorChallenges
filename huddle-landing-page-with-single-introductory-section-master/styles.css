@@ -16,7 +16,9 @@
      background-repeat: no-repeat;
 }
  header img{
+     margin-top:2rem;
      margin-left:3rem;
+     width: 15%;
 }
  main{
      display: flex;
@@ -37,7 +39,8 @@
     font-family: "Poppins",sans-serif;
     font-weight:600;
     color:#fff;
-    width:25rem;
+    width: 30rem;
+    font-size: 40px;
 }
 .text p{
     font-family: "Open Sans",sans-serif;
@@ -64,7 +67,7 @@
 }
 .icon{
     position: absolute;
-    right: 10rem;
+    right: 5rem;
     bottom: 2rem;
 }
 .iconst{
