@@ -23,7 +23,6 @@
  main{
      display: flex;
      flex-direction: row;
-     justify-content: center;
      margin-left: 3rem;
      margin-top: 7.5rem;
      justify-content: flex-start;
