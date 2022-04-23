@@ -30,4 +30,4 @@
 
 [Grid Price](https://iagohenrique2009.github.io/FrontendMentorChallenges/single-price-grid-component-master/)
 
-[Ping Soon Page] (https://iagohenrique2009.github.io/FrontendMentorChallenges/ping-coming-soon-page-master/)
+[Ping Soon Page](https://iagohenrique2009.github.io/FrontendMentorChallenges/ping-coming-soon-page-master/)
