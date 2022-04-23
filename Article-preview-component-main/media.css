@@ -1,0 +1,45 @@
+@media (max-width: 500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgleft{
+        width:126%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+    }
+    .textbox{
+        width:100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+    .iconshr{
+        position: absolute;
+        top:85%;
+        width:443px;
+        right:4%;
+        padding: 2rem 0 2rem 0 ;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .sharebtn{
+        position: absolute;
+        top: 90%;
+        right: 15%;
+    }
+    .iconshr img{
+        width:6%;
+    }
+    .lttr{
+        margin-left:2rem;
+    }
+    .iconshr::after{
+        content: none;
+    }
+    .sharebtn{
+        z-index:1;
+    }
+}
