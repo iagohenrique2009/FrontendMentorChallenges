@@ -1,0 +1,32 @@
+@media (max-width:500px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .notification{
+        display: flex;
+        flex-direction: column;
+    }
+    .ilustration{
+        width: 80%;
+        padding:10rem;
+    }
+    input[type="email"]{
+        
+        padding:1rem 2rem;
+    }
+    .attribution{
+        right: 14rem;
+    }
+    #error{
+        position: absolute;
+        top: 18.5rem;
+        left:10rem;
+        margin-bottom: 10rem;
+    }
+
+}

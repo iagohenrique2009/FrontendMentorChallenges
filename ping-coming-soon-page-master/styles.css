@@ -1,0 +1,125 @@
+ :root{
+    --Blue: hsl(223, 87%, 63%);
+    --PaleBlue: hsl(223, 100%, 88%);
+    --LightRed: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --VeryDarkBlue: hsl(209, 33%, 12%);
+ }
+ .attribution {
+    position:absolute;
+    
+    right: 0;
+     font-size: 10px; 
+      text-align: center;
+      
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 18px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.ping{
+    padding:2rem;
+}
+.ilustration{
+    width:45%;
+    padding:5rem;
+}
+.launch{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.launch h1{
+    font-weight: 300;
+    color:var(--Gray);
+    margin-bottom: 0;
+}
+.launch .soon{
+    font-weight: 700;
+    color:var(--VeryDarkBlue);
+}
+.launch p{
+    margin-bottom: 2rem;
+    color:var(--VeryDarkBlue);
+
+}
+.notification{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    height: 3rem;
+
+}
+#error{
+    position: absolute;
+    top: 18rem;
+    left: 34rem;
+    color: var(--LightRed);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+input[type="email"]{
+    width: 17.5rem;
+    padding: 1.2rem 2.2rem;
+    border-radius: 25rem;
+    font-size: 19px;
+    color:var(--VeryDarkBlue);
+    opacity: 0.1;
+    transition: .3s ease all;
+    outline: none;
+}
+input[type="email"]:focus{
+    opacity: 1;
+    
+}
+.button{
+    
+    background-color:var(--Blue);
+    opacity:0.9;
+    padding: 1rem 4rem 1rem 4rem;
+    border-radius:2rem;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color:var(--Blue);
+}
+.copyright p{
+    color:var(--Gray)
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconf{
+    margin-right: 1rem;
+    padding:0.5rem;
+    border: 1px solid var(--Gray);
+    border-radius: 75%;
+    cursor: pointer;
+}
+.iconf:hover{
+    background-color: var(--Blue);
+    color:#fff;
+}
