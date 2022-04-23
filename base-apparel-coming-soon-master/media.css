@@ -1,0 +1,45 @@
+@media (max-width: 500px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero{
+     position: absolute;
+    top: 10%;
+    width:100%;
+    object-fit:cover;
+    object-position: 100%;
+    }
+    .textbox{
+        margin-top: 20px;
+        padding-left:3rem;
+        padding-right: 0;
+    }
+    .hero img{
+        margin:-75px;
+    }
+    .mid{
+        margin-top: -10px;
+        padding-top:40rem;
+        text-align: center;
+    }
+    .textbox  h1{
+        width:57%;
+
+        text-align: center;
+    }
+    .textbox p{
+        width:50%;
+        text-align: center;
+    }
+    #email{
+        width:20rem;
+    }
+    .error{
+        top:72.5rem;
+        left:20rem;
+    }
+    .valid{
+        margin-left:0;
+    }
+}
