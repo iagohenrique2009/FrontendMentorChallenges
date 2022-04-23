@@ -1,0 +1,9 @@
+@media (max-width: 500px){
+    .blockbottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .blocktitle p{
+        width:70%;
+    }
+}
