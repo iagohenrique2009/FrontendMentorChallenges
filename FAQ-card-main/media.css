@@ -1,0 +1,30 @@
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width:85%;
+        padding-top: 15rem;
+        overflow: visible;
+        background-position-x: 40px;
+        background-position-y: -200px;
+        background-size: 75%;
+    
+    }
+    body{
+        padding-top:10rem;
+    }
+    .img1{
+        margin-left: 2rem;
+        margin-bottom: 56px;
+        position: absolute;
+        bottom: 34rem;
+        width: 70%;
+    }
+    .box{
+        position: absolute;
+        z-index: 1;
+        top: 21%;
+        left: 15%;
+        width: 25%;
+    }
+}
