@@ -1,0 +1,22 @@
+@media (max-width: 500px){
+    main .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .box1{
+        border-bottom-left-radius:0%;
+        border-top-right-radius: 25px;
+    }
+    .container .box3{
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 25px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        position: none;
+    }
+}
